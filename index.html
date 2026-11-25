@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">ÉLORA.</div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#shop">Shop</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+        </div>
+        <div class="list">
+            <div class="cart">
+                <a href="cart.html">
+                    Cart (<span id="cart-count">0</span>)
+                </a>
+            </div>
+            <div class="wishlist-link">
+                <a href="wishlist.html">♡ Wishlist</a>
+            </div>
+            <div class="wishlist-link">
+                <a href="orders.html">My Orders</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="hero-tag">NEW COLLECTION 2026</p>
+            <h1>Discover Your<br>Own Style</h1>
+            <p class="hero-description">Explore the latest fashion trends.Find your perfect look with ÉLORA.</p>
+            <button class="shop-btn">Shop Now</button>
+        </div>
+
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=900" alt="Fashion Collection">
+        </div>
+
+    </section>
+
+    <section class="categories" id="categories">
+        <div class="section-heading">
+            <h2>Shop By Category</h2>
+            <p>Explore our latest collections</p>
+        </div>
+        <div class="category-container">
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=600" alt="Women's Fashion">
+                <h3>Women's Fashion</h3>
+            </div>
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1617137968427-85924c800a22?w=600" alt="Men's Fashion">
+                <h3>Men's Fashion</h3>
+            </div>
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=600" alt="Accessories">
+                <h3>Accessories</h3>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="products" id="shop">
+        <div class="section-heading">
+            <h2>Featured Products</h2>
+            <p>Discover our latest fashion collection</p>
+        </div>
+        <div class="product-filters">
+            <input type="text" id="search-input" placeholder="Search products...">
+            <select id="category-filter">
+                <option value="all">All Categories</option>
+                <option value="mens-shirts">Men's Shirts</option>
+                <option value="mens-shoes">Men's Shoes</option>
+                <option value="tops">Women's Tops</option>
+                <option value="womens-dresses">Women's Dresses</option>
+                <option value="womens-shoes">Women's Shoes</option>
+                <option value="womens-bags">Women's Bags</option>
+                <option value="womens-jewellery">Jewellery</option>
+                <option value="sunglasses">Sunglasses</option>
+                <option value="mens-watches">Men's Watches</option>
+                <option value="womens-watches">Women's Watches</option>
+                <option value="beauty">Makeup & Beauty</option>
+                <option value="fragrances">fragrances</option>
+                <option value="skin-care">Skin Care</option>
+                <option value="home-decoration">Home Decoration</option>
+                <option value="mobile-accessories">Mobile Accessories</option>
+            </select>
+        </div>
+        <div class="product-container" id="product-container">
+            <p>Loading products...</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-about">
+                <h2>ÉLORA.</h2>
+                <p>
+                    Discover your style with our exclusive fashion
+                    collection. Elegance, quality and confidence
+                    in every detail.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="index.html#shop">Shop</a>
+                <a href="index.html#categories">Categories</a>
+                <a href="about.html">About Us</a>
+            </div>
+
+            <div class="footer-links">
+                <h3>Customer Service</h3>
+                <a href="contact.html">Contact Us</a>
+                <a href="#">FAQs</a>
+                <a href="#">Shipping Policy</a>
+                <a href="#">Return Policy</a>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Get In Touch</h3>
+                <p>Email: support@elora.com</p>
+                <p>Follow us on social media</p>
+                <div class="social-links">
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">Pinterest</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 ÉLORA. All Rights Reserved.</p>
+            <p>Designed with elegance ♡</p>
+        </div>
+    </footer>
+    <script src="cart-count.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

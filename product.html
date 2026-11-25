@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details | ÉLORA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">ÉLORA.</div>
+       <div class="nav-links">
+             <a href="index.html">Home</a>
+            <a href="index.html#shop">Shop</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+        </div>
+        <div class="list">
+            <div class="cart">
+                <a href="cart.html">
+                    Cart (<span id="cart-count">0</span>)
+                </a>
+            </div>
+            <div class="wishlist-link">
+                <a href="wishlist.html">♡ Wishlist</a>
+            </div>
+            <div class="wishlist-link">
+                <a href="orders.html">My Orders</a>
+            </div>
+        </div>
+    </nav>
+    <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <span>/</span>
+        <span id="breadcrumb-category">Category</span>
+        <span>/</span>
+        <span id="breadcrumb-title">Product</span>
+    </div>
+
+    <section class="product-page">
+
+        <div class="product-details">
+
+            <!-- Product Gallery -->
+            <div class="product-gallery">
+
+                <div class="thumbnail-container" id="thumbnail-container">
+                </div>
+
+                <div class="main-image">
+                    <img src="" alt="Product Image" id="main-image">
+                </div>
+
+            </div>
+
+            <!-- Product Information -->
+            <div class="product-info">
+
+                <p id="product-brand">BRAND</p>
+
+                <h1 id="product-title">Loading Product...</h1>
+
+                <div class="product-rating">
+                    ⭐ <span id="product-rating">0</span>
+                    <span id="product-reviews"></span>
+                </div>
+
+                <div class="price-section">
+                    <span id="product-price"></span>
+                    <span id="old-price"></span>
+                    <span id="discount"></span>
+                </div>
+
+                <p id="product-description"></p>
+
+                <div class="product-tags">
+                    <span>PREMIUM QUALITY</span>
+                    <span>BEST SELLER</span>
+                    <span>NEW COLLECTION</span>
+                </div>
+
+                <div class="service-info">
+                    <div>↻ Easy Returns</div>
+                    <div>♧ Free Shipping</div>
+                    <div>♧ Secure Payment</div>
+                </div>
+
+                <div class="quantity">
+                    <button id="decrease-btn">−</button>
+                    <span id="quantity">1</span>
+                    <button id="increase-btn">+</button>
+                </div>
+
+                <div class="product-actions">
+                    <button id="wishlist-btn">🖤 ADD TO WISHLIST</button>
+                    <button id="add-to-cart">ADD TO CART</button>
+                </div>
+
+                <p class="delivery-info">
+                    Free shipping on eligible orders.
+                    Easy returns available.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+   <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-about">
+                <h2>ÉLORA.</h2>
+                <p>
+                    Discover your style with our exclusive fashion
+                    collection. Elegance, quality and confidence
+                    in every detail.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="index.html#shop">Shop</a>
+                <a href="index.html#categories">Categories</a>
+                <a href="about.html">About Us</a>
+            </div>
+
+            <div class="footer-links">
+                <h3>Customer Service</h3>
+                <a href="contact.html">Contact Us</a>
+                <a href="#">FAQs</a>
+                <a href="#">Shipping Policy</a>
+                <a href="#">Return Policy</a>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Get In Touch</h3>
+                <p>Email: support@elora.com</p>
+                <p>Follow us on social media</p>
+                <div class="social-links">
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">Pinterest</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 ÉLORA. All Rights Reserved.</p>
+            <p>Designed with elegance ♡</p>
+        </div>
+    </footer>
+    <script src="cart-count.js"></script>
+    <script src="product.js"></script>
+</body>
+
+</html>
